@@ -1,10 +1,10 @@
+hei = input("Type height")
+col = input ("Type Color")
+aut = input ("Type Favourite Author")
 me = {
-    "height": "6",
-    "fav_color": "red",
-    "fav_author": "Orwell"
+    "height": hei,
+    "fav_color": col,
+    "fav_author": aut
 }
 
-answer = input("Type height, fav_color or fav_author")
-if answer in me:
-    result = me[answer]
-    print(result)
+print(me)
